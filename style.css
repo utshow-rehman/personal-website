@@ -1,0 +1,133 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-size: 50px;
+   
+}
+p{
+    color: dimgray;
+}
+
+.pink-highlight{
+    color: rgb(255, 0, 119)
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-left: 2%;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width img{
+    width: 100%;
+}
+.Bio-width{
+    margin-top: 9%;
+    width: 37%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 2%;
+}
+
+.top-banner{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+  
+}
+.middle-banner{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+   
+   }
+   .latest-work{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
+  .front-image{
+    max-width: 76%;
+    margin: 5%;
+  } 
+   .middle-image{
+    max-width: 76%;
+   
+
+ }
+.link-button{
+    text-decoration: none;
+    background-color:  rgb(255, 0, 119);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   
+
+}
+.column {
+    float: left;
+    width: 30%;
+    margin: 14px
+   
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .latest-img{
+    max-width: 455px;
+  }
+  .row{
+    
+      margin-left: 36px;
+     
+  }
+  .latest-text{
+      text-align: center;
+      margin-top: 10px;
+  }
+
+ .last-banner{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ .last-width{
+     text-align: center;
+ }
+ .quote{
+     font-size: 30px;
+     color: black;
+ }
+ .last-work{
+   border-radius: 10px;
+    background-color: rgb(252, 45, 141);
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     
+ }
+ .last-message{
+      color: white;
+ }
+ .last-email{
+      width: 10px;
+      color: white;
+ }
